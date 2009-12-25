@@ -1,7 +1,7 @@
 import re
 
 try:
-    from haslib import md5
+    from hashlib import md5
 except ImportError:
     import md5
 
